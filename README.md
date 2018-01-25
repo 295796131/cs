@@ -1,7 +1,7 @@
 # CourseSelect [![Build Status](https://travis-ci.org/PENGZhaoqing/CourseSelect.svg?branch=master)](https://travis-ci.org/PENGZhaoqing/CourseSelect)
  本项目依托于https://github.com/PENGZhaoqing/CourseSelect 进行开发
 
- Cloud9演示地址（https://courseselectxu-magezhang.c9users.io）
+ Cloud9演示地址（https://courseselectxu-magezhang.c9users.io ）
 
 ### 目前功能：
 

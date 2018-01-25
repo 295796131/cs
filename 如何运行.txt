@@ -1,0 +1,12 @@
+0. 如果有新添gem包，则bundle install
+1. 数据库密码修改为自己的
+
+
+2. 如果修改了数据库，则rake db:migrate 错误
+
+ 首先 删除自己本地数据库courselect_development，然后新建一个courselect_development
+
+再运行 migrate
+
+如果rake aborted ,运行 bundle update rake，然后再试。
+3. 导入数据rake db:seed

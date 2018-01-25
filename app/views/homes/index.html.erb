@@ -1,0 +1,81 @@
+
+<div class="container">
+
+  <div class="row">
+
+    <!-- 轮播 -->
+    <div class="col-md-8" style="padding-bottom: 20px;padding-top: 20px">
+    <div id="myCarousel" class="carousel slide">
+      <!-- 轮播（Carousel）指标 -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <!-- 轮播（Carousel）项目 -->
+      <div class="carousel-inner">
+        <div class="item active">
+          <%= link_to image_tag("i.jpg", width:1280, height: 360), image_path("http://news.ucas.ac.cn/index.php?option=com_content&view=article&id=342589&catid=340&Itemid=176")%>
+          <div class="carousel-caption">标题 1</div>
+        </div>
+        <div class="item">
+          <%= link_to image_tag("ii.jpg", width: 1280 , height: 360), image_path("http://news.ucas.ac.cn/index.php?option=com_content&view=article&id=341735&catid=340&Itemid=176")%>
+          <div class="carousel-caption">标题 2</div>
+        </div>
+        <div class="item">
+          <%= link_to image_tag("iii.jpg", width: 1280 , height: 360), image_path("http://news.ucas.ac.cn/index.php?option=com_content&view=article&id=342272&catid=340&Itemid=176")%>
+          <div class="carousel-caption">标题 3</div>
+        </div>
+      </div>
+      <!-- 轮播（Carousel）导航 -->
+      <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+      <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+    </div>
+    </div>
+    <!-- 选择 -->
+    <div class="col-md-4" style="padding-bottom: 10px;padding-top: 10px">
+    <div class="tabbable custom-tab ">
+      <ul class="nav nav-tabs">
+        <li class=""><a href="#created" data-toggle="tab"><strong>最新资讯</strong></a></li>
+      </ul>
+
+      <div class="tab-content">
+        <div class="tab-pane  active" id="hits">
+          <ol>
+            <p></p>
+            <li>
+              <a class="title-cut " href="http://news.ucas.ac.cn/index.php?option=com_content&view=article&id=342708&catid=369&Itemid=206" title="国科大九名教授入选2017度长江学者建议人选名单">
+               国科大九名教授入选2017度长江学者建议人选名单			</a>
+              <small>JAN  7.2018</small>
+            </li>
+            <li>
+              <a class="title-cut " href="http://news.ucas.ac.cn/index.php?option=com_content&view=article&id=342707&catid=340&Itemid=176" title="国科大党委书记张杰院士为研究生上思政课">
+                国科大党委书记张杰院士为研究生上思政课				</a>
+                <small>Dec  23.2017国科大党委书记张杰院士为研究生上思政课国科大党委书记张杰院士为研究生上思政课</small>
+            </li>
+            <li>
+              <a class="title-cut " href="http://news.ucas.ac.cn//index.php/kydd/189970-揭密埃博拉，创造新细胞｜国科大医学院正副院长同时在顶级期刊cell上发布重要新成果" title="国科大医学院正副院长同时在顶级期刊发布重要新成果">
+                国科大医学院正副院长同时在顶级期刊发布重要新成果				</a>
+              <small>JAN  19.2017</small>
+            </li>
+            <li>
+              <a class="title-cut " href="http://news.ucas.ac.cn//index.php/shuqi/517-notice/191258-xwrytz" title="中国科学院大学2016年暑期学校报名通知（校外人员）">
+                中国科学院大学2016年暑期学校报名通知（校外人员）				</a>
+              <small>MAY  11.2017</small>
+            </li>
+            <li>
+              <a class="title-cut " href="http://news.ucas.ac.cn//index.php/gkrw/190785-专访王贻芳院士：青年人要敢与世界赛跑" title="专访王贻芳院士：青年人要敢与世界赛跑">
+                专访王贻芳院士：青年人要敢与世界赛跑				</a><small>APR  07.2017</small>
+            </li>
+          </ol>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+  </div>
+
+
+  </div>
